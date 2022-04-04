@@ -1,0 +1,9 @@
+[package]
+name = "vulkan-playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.26.1"
+ash = { version = "0.37.0", features = ["linked"] }
+ash-window = "0.10.0"
